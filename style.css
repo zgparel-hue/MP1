@@ -125,16 +125,6 @@ a {
   background: #b84a39;
 }
 
-.open-badge {
-  display: inline-block;
-  padding: 4px 10px;
-  border-radius: 16px;
-  background: #e6ecdf;
-  color: #2f5d46;
-  font-size: 12px;
-  font-weight: bold;
-}
-
 .action-link,
 button,
 .secondary-link {
@@ -256,6 +246,10 @@ tr:hover {
   border-top: 1px solid #d8b9a8;
   color: #66584f;
   font-size: 13px;
+}
+
+.radio-note {
+  font-size: 12px;
 }
 
 .photo-credit {

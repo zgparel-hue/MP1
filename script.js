@@ -1,7 +1,6 @@
 function showNote() {
   var quotes = [
     "Okay naman yung suka. Bumabalik lang talaga ako pag naka-duty yung anak ni Aling Nena. Minsan nakakalimutan ko tuloy kunin yung sukli. - Isang suking laging may dahilan",
-    "Dito ko unang natutunan na kendi ang legal tender kapag walang panukli si Nena. - Jun, suki ng yelo",
     "Five stars sa kape, one star kasi pinauwi na ako agad dahil wala naman akong bibilhin. - Kapitbahay sa kabilang kanto",
     "Bumili ako ng suka kahapon, bumili ulit ako ngayon. Hindi nagtataka si Nena, pero nakangiti na siya. - Suki sa kanto"
   ];
