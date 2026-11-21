@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background: #f6efe2;
-  color: #342b27;
+  background: #f2e8d8;
+  color: #3d332e;
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
@@ -16,7 +16,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  border-bottom: 1px solid #d8b9a8;
+  border-bottom: 1px solid #d0b39d;
 }
 
 .store-name {
@@ -32,7 +32,7 @@ body {
 }
 
 .store-name a {
-  color: #342b27;
+  color: #3d332e;
 }
 
 .navigation {
@@ -43,18 +43,18 @@ body {
 
 .navigation a {
   padding: 7px 12px;
-  border: 1px solid #2f5d46;
+  border: 1px solid #49624b;
   border-radius: 18px;
-  color: #2f5d46;
+  color: #49624b;
   font-size: 14px;
 }
 
 .navigation a:hover {
-  background: #f2dfd4;
+  background: #f0ded0;
 }
 
 .navigation a.active {
-  background: #2f5d46;
+  background: #49624b;
   color: #fffaf2;
 }
 
@@ -66,14 +66,14 @@ body {
   min-height: 390px;
   margin: 44px auto;
   padding: 38px 42px;
-  border: 3px double #b84a39;
+  border: 3px double #bd856b;
   border-radius: 8px;
-  background: #fffaf2;
+  background: #fbf4e8;
 }
 
 h1 {
   margin: 0 0 20px;
-  color: #2f5d46;
+  color: #49624b;
   font-family: Georgia, serif;
   font-size: 36px;
   font-weight: normal;
@@ -84,7 +84,7 @@ p {
 }
 
 a {
-  color: #2f5d46;
+  color: #49624b;
 }
 
 .home-content {
@@ -94,7 +94,7 @@ a {
 }
 
 .home-content h1 {
-  color: #b84a39;
+  color: #a75a45;
   font-size: 40px;
 }
 
@@ -119,21 +119,15 @@ a {
   flex: 1;
 }
 
-.awning-bar {
-  height: 14px;
-  border-bottom: 7px solid #2f5d46;
-  background: #b84a39;
-}
-
 .action-link,
 button,
 .secondary-link {
   display: inline-block;
   padding: 10px 16px;
-  border: 1px solid #2f5d46;
+  border: 1px solid #49624b;
   border-radius: 5px;
-  background: #2f5d46;
-  color: #fffaf2;
+  background: #49624b;
+  color: #fbf4e8;
   font: inherit;
   text-decoration: none;
   cursor: pointer;
@@ -154,8 +148,8 @@ button,
 
 .action-link:hover,
 button:hover {
-  border-color: #b84a39;
-  background: #b84a39;
+  border-color: #a75a45;
+  background: #a75a45;
 }
 
 .secondary-link:hover {
@@ -169,8 +163,8 @@ button:hover {
 
 .home-photo {
   padding: 12px 12px 2px;
-  border: 1px solid #ded8c8;
-  background: #fff;
+  border: 1px solid #d4c2aa;
+  background: #fffaf1;
   transform: rotate(2deg);
 }
 
@@ -223,7 +217,7 @@ td {
 }
 
 th {
-  color: #2f5d46;
+  color: #49624b;
 }
 
 tr:nth-child(even) {
@@ -236,13 +230,13 @@ tr:hover {
 
 .store-note {
   margin-top: 24px;
-  color: #b84a39;
+  color: #a75a45;
   font-style: italic;
 }
 
 .photo-content img {
   border: 6px solid #fff;
-  outline: 1px solid #d8b9a8;
+  outline: 1px solid #d0b39d;
 }
 
 .photo-story {
@@ -255,7 +249,7 @@ tr:hover {
   max-width: 900px;
   margin: 0 auto;
   padding: 12px;
-  border-top: 1px solid #d8b9a8;
+  border-top: 1px solid #d0b39d;
   color: #66584f;
   font-size: 13px;
 }
@@ -273,8 +267,8 @@ tr:hover {
 .review {
   margin: 22px 0;
   padding: 20px;
-  border: 1px dashed #d8b9a8;
-  background: #f9f2e8;
+  border: 1px dashed #d0b39d;
+  background: #f7eddf;
   font-family: Georgia, serif;
   font-size: 20px;
 }
@@ -286,85 +280,11 @@ tr:hover {
   padding: 10px;
   border: 1px solid #c7b7a5;
   border-radius: 4px;
+  background: #fffaf1;
   font: inherit;
 }
 
 #form-message {
-  color: #2f5d46;
-}
-
-/* Slightly warmer shades for the shop's paper-and-paint look. */
-body {
-  background: #f2e8d8;
-  color: #3d332e;
-}
-
-.page-content,
-.home-content {
-  border-color: #bd856b;
-  background: #fbf4e8;
-}
-
-.top-bar,
-.bottom-bar {
-  border-color: #d0b39d;
-}
-
-.store-name a {
-  color: #3d332e;
-}
-
-.navigation a,
-h1,
-th,
-a {
   color: #49624b;
 }
 
-.navigation a {
-  border-color: #49624b;
-}
-
-.navigation a:hover {
-  background: #f0ded0;
-}
-
-.navigation a.active,
-.action-link,
-button {
-  border-color: #49624b;
-  background: #49624b;
-}
-
-.home-content h1,
-.store-note {
-  color: #a75a45;
-}
-
-.awning-bar {
-  border-bottom-color: #49624b;
-  background: #a75a45;
-}
-
-.home-photo {
-  border-color: #d4c2aa;
-  background: #fffaf1;
-}
-
-.photo-content img {
-  outline-color: #d0b39d;
-}
-
-.review {
-  border-color: #d0b39d;
-  background: #f7eddf;
-}
-
-.contact-content input {
-  border-color: #c7b7a5;
-  background: #fffaf1;
-}
-
-#form-message {
-  color: #49624b;
-}
