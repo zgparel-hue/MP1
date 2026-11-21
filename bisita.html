@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bisita | Tindahan ni Aling Nena</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="bisita-page">
+  <div class="top-bar">
+    <p class="store-name"><a href="index.html">Tindahan ni Aling Nena</a></p>
+    <div class="navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="paninda.html">Paninda</a>
+      <a href="larawan.html">Larawan</a>
+      <a href="suki.html">Suki</a>
+      <a class="active" href="bisita.html">Bisita</a>
+    </div>
+  </div>
+
+  <div class="page-content contact-content">
+    <h1>Daan Ka Lang</h1>
+    <p>Nasa kanto lang kami ng Sampaguita Street. Usually bukas buong hapon, pero kung nakasara ang bintana, baka namalengke lang si Nena. Leave a note below kung may ipapabili ka o may ikukuwento.</p>
+    <div>
+      <form>
+        <p><input id="visitor-name" type="text" placeholder="Pangalan mo" aria-label="Pangalan mo"></p>
+        <p><input id="visitor-message" type="text" placeholder="Message para kay Nena" aria-label="Message para kay Nena"></p>
+        <p><button type="button" onclick="sendHello()">Iwan ang message</button></p>
+      </form>
+      <p id="form-message"></p>
+    </div>
+  </div>
+
+  <div class="bottom-bar">
+    <p>Email: kumustahan@alingnena.example</p>
+  </div>
+</body>
+</html>
