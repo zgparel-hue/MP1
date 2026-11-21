@@ -145,6 +145,13 @@ button,
   color: #b84a39;
 }
 
+.home-actions .action-link,
+.home-actions .secondary-link {
+  border-color: #5b4035;
+  background: transparent;
+  color: #5b4035;
+}
+
 .action-link:hover,
 button:hover {
   border-color: #b84a39;
@@ -153,6 +160,11 @@ button:hover {
 
 .secondary-link:hover {
   background: #f4e4dc;
+}
+
+.home-actions .action-link:hover,
+.home-actions .secondary-link:hover {
+  background: #f2e7d8;
 }
 
 .home-photo {
